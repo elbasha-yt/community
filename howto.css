@@ -40,11 +40,122 @@ body{
     transform: scale(1.05);
     
 }
-.wait{
+.how-title{
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
-.wait h1{
+.how-title h1{
     color: white;
+    transition: 1s;
+    background-color: #3b82f5;
+    padding: 5px;
+}
+.how-title h1:hover{
+    transform: scale(1.1);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #3b82f5;
+}
+.first img{
+    width: 750px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.first img:hover{
+    transform: scale(1.1);
+}
+.first h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.first h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #3b82f5;
+}
+.sec img{
+    width: 750px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.sec img:hover{
+    transform: scale(1.1);
+}
+.sec h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sec h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.thrte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #3b82f5;
+}
+.thrte img{
+    width: 750px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.thrte img:hover{
+    transform: scale(1.1);
+}
+.thrte h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.thrte h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.forte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #3b82f5;
+}
+.forte img{
+    width: 750px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.forte img:hover{
+    transform: scale(1.1);
+}
+.forte h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.forte h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.done h1{
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    padding: 15px;
 }

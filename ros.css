@@ -131,9 +131,25 @@ body{
     font-size: 25px;
     font-family: "Cairo", sans-serif;
     transition: 1s;
+    margin-bottom: 15px;
 
 }
 .how a:hover{
     transform: scale(1.1);
 
+}
+.note{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.note h1{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    transition: 1s;
+    
+}
+.note h1:hover{
+    transform: scale(1.1);
 }
