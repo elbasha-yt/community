@@ -113,3 +113,27 @@ body{
 .info-button:hover {
     background-color: #0f730f;
 }
+.how {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.how a{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #008000;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    transition: 1s;
+
+}
+.how a:hover{
+    transform: scale(1.1);
+
+}

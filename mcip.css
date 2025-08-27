@@ -35,112 +35,116 @@ body{
     text-decoration: none;
     transition: 1s;
 }
-
 .header-btn a:hover{
     background-color: #14B8A6;
     transform: scale(1.05);
     
 }
-
-.counter {
+.mc-logo{
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.counter h1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    background-color: #EF4444;
-    color: white;
-    border-radius: 15px;
-    padding: 15px;
-    transition: 1s;
-}
-
-.counter h2{
-    margin-top: 50px;
-    color: white;
-    border-radius: 15px;
-    padding: 15px;
-    background-color: #0a182e;
-    transition: 1s;
-}
-
-.counter h1:hover{
-    transform: scale(1.05);
-}
-
-.counter h2:hover{
-    transform: scale(1.05);
-}
-.counter p{
-    margin-top: 25px;
-    color: white;
-    transition: 1s;
-}
-.counter p:hover{
-    transform: scale(1.1);
-}
-
-
-.forget {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.forget p{
-    background-color: #282a31;
-    padding: 5px;
-    border-radius: 15px;
-    color: white;
-    font-size: 35px;
-    text-align: center;
-    margin: 0;
-    transition: 1s;
-}
-.forget p:hover{
-    transform: scale(1.1);
-}
-
-
-.forget-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
-
-.forget-link a {
-    font-family: "Cairo", sans-serif;
-    font-size: 20px;
-    background-color: #3B82F6;
+.mc-logo img{
+    border-radius: 25px;
+    transition: 1s;
+}
+.mc-logo img:hover{
+    transform: scale(1.1);
+}
+.status{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status h1{
+    color: white;
+    background-color: green;
     border-radius: 15px;
     padding: 15px;
+    transition: 1s;
+}
+.status h1:hover{
+    transform: scale(1.1);
+
+}
+.ip{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ip h1{
+    color: white;
+    background-color: #303340;
+    padding: 15px;
+    border-radius: 8px ;
+    transition: 1s;
+}
+.ip h1:hover{
+    transform: scale(1.1);
+}
+.ver{
+    display: flex;
+    justify-content: center;
+}
+.ver h1{
+    color: white;
+    background-color: #303340;
+    padding: 14px;
+    border-radius:8px;
+    margin-top: 0px;
+    transition: 1s;
+}
+.ver h1:hover{
+    transform: scale(1.1);
+}
+.java{
+    display: flex;
+    justify-content: center;
+}
+.java h1{
+    color: white;
+    background-color: #303340;
+    padding: 14px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.java h1:hover{
+    transform: scale(1.1);
+}
+.crack{
+    display: flex;
+    justify-content: center;
+}
+.crack h1{
+    color: white;
+    background-color: #303340;
+    padding: 14px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.crack h1:hover{
+    transform: scale(1.1);
+}
+.dis{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.dis a{
+    color: white;
+    background-color: #565fdd;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 25px;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: 0.3s;
+    font-family: "Cairo", sans-serif;
+    transition: 0.5s;
 }
-
-.forget-link a:hover {
+.dis a:hover{
     transform: scale(1.1);
-}
-.home-end{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.home-end p{
-    color: white;
-    font-size: 20px;
 }
