@@ -22,18 +22,49 @@
                 <a href="store.html">المتجر</a>
                 <a href="more.html"> الـمزيد </a>
             </div>
-
         </div>
-     
-
     </div>
-    <div class="cards-container">
-  <div class="game-card">
-    <img src="images/MC.jpg" alt="Minecraft">
-    <a href="buy-craft.html" class="info-button">Minecraft</a>
-  </div>
 
- </div>
- <div class="rates">
-  <a href="store-rates.html" target="_blank">عرض التقييمات</a>
- </div>
+    <div class="cards-container">
+      <div class="game-card">
+        <img src="images/MC.jpg" alt="Minecraft">
+        <a href="buy-craft.html" class="info-button">Minecraft</a>
+      </div>
+    </div>
+
+    <div class="rates">
+      <a href="store-rates.html" target="_blank">عرض التقييمات</a>
+    </div>
+
+    <!-- زرار الشروط والاحكام -->
+    <div class="text-center mt-5 mb-5">
+      <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#termsModal">
+        الشروط والأحكام
+      </button>
+    </div>
+
+    <!-- مودال الشروط والاحكام -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="font-family: 'Cairo', sans-serif; text-align: right; direction: rtl;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="termsModalLabel">الشروط والأحكام</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+          </div>
+          <div class="modal-body">
+            ⚠️ المنتج نهائي ولا يمكن استرجاعه بعد الشراء.<br>
+            ❌ لا يوجد استرجاع أو استبدال.<br>
+            💰 السعر ثابت وغير قابل للتفاوض.<br>
+            ✅ بمجرد إتمام عملية الشراء فأنت موافق على هذه الشروط.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">موافق</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- سكريبت Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
