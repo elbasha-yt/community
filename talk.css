@@ -1,0 +1,211 @@
+body{
+    background-color: #0F111A !important;
+}
+
+.head{
+    background-color: #1E1E2F;
+    padding: 15px;
+    border-radius: 0px 0 25px 25px;
+    margin-top: 0px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header img{
+    border-radius: 25px;
+    width: 170px;
+    transition: 1s;
+}
+
+.header img:hover{
+    transform: scale(1.05);
+}
+
+.header-btn a{
+    font-family: "Cairo", sans-serif;
+    color: white;
+    background-color: #3B82F6;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+.header-btn a:hover{
+    background-color: #14B8A6;
+    transform: scale(1.05);
+    
+}
+/* ===== Discord Card ===== */
+.discord-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: min(520px, 95%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .15);
+  background: #6f82eb;
+  margin: 20px auto;
+  direction: rtl;
+}
+
+/* الجزء الأيسر (الأيقونة) */
+.dc-left {
+  flex: 0 0 160px;
+  min-height: 150px;
+  background: #5865F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dc-logo { width: 80px; height: auto; }
+
+/* الجزء الأيمن (النص والزر) */
+.dc-right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  color: #fff;
+}
+.dc-right h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* الزر <a> */
+.dc-btn {
+  align-self: flex-start;
+  background: #fff;
+  color: #5865F2;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.dc-btn:hover {
+  background: #4653f0;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive للموبايل ===== */
+@media (max-width: 600px) {
+  .discord-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .dc-left {
+    width: 100%;
+    min-height: 120px;
+  }
+  .dc-right {
+    align-items: center;
+  }
+  .dc-btn {
+    align-self: center;
+  }
+}
+/* ===== WhatsApp Card ===== */
+.whatsapp-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: min(520px, 95%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .15);
+  background: #25d366;
+  margin: 20px auto;
+  direction: rtl;
+}
+
+/* الجزء الأيسر (الأيقونة) */
+.wa-left {
+  flex: 0 0 160px;
+  min-height: 150px;
+  background: #128C7E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wa-logo {
+  width: 80px;
+  height: 80px;
+}
+
+/* الجزء الأيمن */
+.wa-right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  color: #fff;
+}
+.wa-right h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* الزر */
+.wa-btn {
+  align-self: flex-start;
+  background: #fff;
+  color: #128C7E;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.wa-btn:hover {
+  background: #0d6e63;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .whatsapp-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .wa-left {
+    width: 100%;
+    min-height: 120px;
+  }
+  .wa-right {
+    align-items: center;
+  }
+  .wa-btn {
+    align-self: center;
+  }
+}
+.if{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.if h1{
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.if h1:hover{
+    transform: scale(1.1);
+}

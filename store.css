@@ -97,3 +97,23 @@ body{
 .info-button:hover {
     background-color: #0f730f;
 }
+.rates{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rates a{
+    color: white;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    background-color: #1e1e2f;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 1s;
+}
+.rates a:hover{
+    transform: scale(1.3);
+}
