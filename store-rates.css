@@ -86,6 +86,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 25px;
 }
 .rates-btn a{
     text-decoration: none;
@@ -97,5 +98,18 @@ body{
     transition: 1s;
 }
 .rates-btn a:hover{
+    transform: scale(1.1);
+}
+.rate-dis{
+    display: flex;
+    flex-direction: column;
+}
+.rate-dis img{
+    border-radius: 15px;
+    width: 750px;
+    margin-top: 50px;
+    transition: 1s;
+}
+.rate-dis img:hover{
     transform: scale(1.1);
 }
