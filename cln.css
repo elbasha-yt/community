@@ -1,0 +1,155 @@
+body{
+    background-color: #0F111A !important;
+}
+
+.head{
+    background-color: #1E1E2F;
+    padding: 15px;
+    border-radius: 0px 0 25px 25px;
+    margin-top: 0px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header img{
+    border-radius: 25px;
+    width: 170px;
+    transition: 1s;
+}
+
+.header img:hover{
+    transform: scale(1.05);
+}
+
+.header-btn a{
+    font-family: "Cairo", sans-serif;
+    color: white;
+    background-color: #3B82F6;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 1s;
+}
+.header-btn a:hover{
+    background-color: #14B8A6;
+    transform: scale(1.05);
+    
+}
+.ros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.ros a{
+    transition: 1s;
+
+}
+.ros a:hover{
+    transform: scale(1.1);
+
+}
+.ros img{
+    border-radius: 15px;
+    transition: 1s;
+
+}
+.ros img:hover{
+    transform: scale(1.1);
+
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* الكرت نفسه */
+.game-card {
+    width: 200px;
+    background-color: #1e1e2f;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.info-button {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 100%;
+}
+
+.info-button:hover {
+    background-color: #0f730f;
+}
+.how {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.how a{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #008000;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    transition: 1s;
+    margin-bottom: 15px;
+
+}
+.how a:hover{
+    transform: scale(1.1);
+
+}
+.note{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.note h1{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    transition: 1s;
+    
+}
+.note h1:hover{
+    transform: scale(1.1);
+}
