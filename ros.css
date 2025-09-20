@@ -153,3 +153,18 @@ body{
 .note h1:hover{
     transform: scale(1.1);
 }
+.note1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.note1 h1{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    transition: 1s;
+    
+}
+.note1 h1:hover{
+    transform: scale(1.1);
+}
